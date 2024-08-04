@@ -119,12 +119,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-5 text-secondary text-[18px] max-w-xl h-[50%] py-20 gap-80 '
       >
-        I'm a developer with experience in
+        I am a developer with experience in
         JavaScript and expertise in frameworks like Reactjs. 
-        I'm a quick learner and can replicate the UI designs to the real-world applications. My expertise in Tailwind CSS allows me to build sleek, maintainable styles quickly, while my proficiency with Framer Motion ensures smooth, high-quality animations that bring applications to life. Let's work together to bring your ideas to life!
+        I am a quick learner and can replicate the UI designs to the real-world applications.My expertise in Tailwind CSS allows me to build sleek, maintainable styles quickly, while my proficiency with Framer Motion ensures smooth, high-quality animations that bring applications to life. <br></br>
+        <div className="mt-10">
+        <span className="text-[#b026ff] text-[24px] font-bold my-7 ">Let's work together! <br></br>  </span> <span className="text-[#fff] text-[24px] font-bold my-7 ">to bring your ideas to life...</span>
+        </div>
       </motion.p>
       <div>
-      <img src="https://static.vecteezy.com/system/resources/previews/024/658/980/non_2x/3d-male-character-sitting-on-a-sofa-and-working-on-a-laptop-with-thinking-pose-free-png.png" className="h-[70%] w-fit py-0"/>
+      <img src="https://static.vecteezy.com/system/resources/previews/024/658/980/non_2x/3d-male-character-sitting-on-a-sofa-and-working-on-a-laptop-with-thinking-pose-free-png.png" className="h-[85%] w-fit py-0"/>
       </div>
       </div>
       <div className=' flex flex-wrap gap-10'>

@@ -19,7 +19,7 @@ const ProjectsCard=({index, name, description, tags,  image, source_code_link})=
         speed:450,
         scale:1
 
-        }}className=' bg-primitive shadow-outer shadow-lg shadow-[#9d4edd] border-purple-400 border-1 h-full rounded-xl border-[1px] p-3 sm:w-[360px] w-full '>
+        }}className=' bg-primitive shadow-outer shadow-lg shadow-[#9d4edd] border-purple-400 border-1 sm:h-[530px] h-fit rounded-xl border-[1px] p-3 sm:w-[360px] w-full '>
 
           <div className="relative w-full h-[46%]">
           <img src={image} alt={"title"} className="w-full h-full  object-cover rounded-2xl border-[1px]"/>

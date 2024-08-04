@@ -19,7 +19,7 @@ body{
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20,fr);
     background: #1d1d1d;
-    filter: saturate(2);
+    filter: saturate(3);
     overflow: hidden;
 
 }
@@ -44,7 +44,7 @@ body{
     left:0;
     width: 100%;
     height: 60px;
-    background: purple;
+    background: #b026ff;
     filter: blur(60px);
     animation: animBack 6s linear infinite;
 }
