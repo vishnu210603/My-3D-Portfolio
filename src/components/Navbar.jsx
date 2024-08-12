@@ -21,7 +21,7 @@ const Navbar = () => {
            }}
            >
             <img className="w-11 h-11 " src={Logo} alt='logo'   />
-            <p className="text-white text-[18px] font-bold cursor-pointer">Vishnu Yadav <span className='sm:block hidden flex justify-between '>| Portfolio</span></p>
+            <p className="text-white text-[18px] font-bold cursor-pointer">Vishnu Yadav <span className='sm:block-hidden flex justify-between '>| Portfolio</span></p>
            </Link>
            <ul className='list-none hidden sm:flex flex-row gap-10 '>
             {navLinks.map((link) =>(
@@ -47,4 +47,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
