@@ -137,8 +137,6 @@ import { StarsCanvas } from './canvas';
 // export default Hero;
 
 
-
->>>>>>> 47e9438e7194217cd4bed198b7130c4b683073b4
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
