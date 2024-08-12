@@ -136,10 +136,7 @@ import { StarsCanvas } from './canvas';
 
 // export default Hero;
 
-import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 >>>>>>> 47e9438e7194217cd4bed198b7130c4b683073b4
 const Hero = () => {
