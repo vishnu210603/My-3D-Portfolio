@@ -5,7 +5,7 @@ import BallCanvas from './canvas/Ball'; // Ensure the correct import path
 import { SectionWrapper } from '../hoc'; // Ensure this is correctly defined
 import { technologies } from '../constants'; // Ensure this is correctly defined
 import { motion } from 'framer-motion';
-
+import { StarsCanvas } from "./canvas"
 
 
 const Tech = () => {
@@ -23,7 +23,9 @@ const Tech = () => {
         </div>
       ))}
     </div>
+  
     </motion.div>
+    
   );
 };
 

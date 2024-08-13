@@ -156,7 +156,7 @@ import {
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
-
+import { StarsCanvas } from "./canvas"
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -217,7 +217,7 @@ const Experience = () => {
           Work Experience.
         </h2>
       </motion.div>
-
+      
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (

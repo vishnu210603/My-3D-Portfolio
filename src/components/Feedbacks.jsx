@@ -72,6 +72,7 @@ import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 import { useState } from "react";
+import { StarsCanvas } from "./canvas";
 import { Tilt } from "react-tilt";
 
 const FeedbackCard = ({ index, testimonial, name, date, company, image }) => (
@@ -119,6 +120,7 @@ const Feedbacks = () => {
           <p className={styles.sectionSubText}>| ACADEMICS</p>
           <p className={styles.heroHeadText}>Education.</p>
         </motion.div>
+        
       </div>
       <div className={`${styles.paddingX} mt-8 p-4 flex flex-wrap gap-7 justify-center`}>
         {testimonials.map((testimonial, index) => (
