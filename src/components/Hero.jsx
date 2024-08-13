@@ -18,10 +18,10 @@ const Hero = () => {
             Hi! I am <span className="text-[#b026ff]">Vishnu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-sm md:text-base`}>
-            I develop 3D visuals, user interfaces <br /> and Web Apps
+            I develop frontend webpages with<br /> 3D visuals, user interfaces 
           </p>
           </div>
-          <div className='flex justify-center mt-8'>
+          <div className='flex justify-center mt-10'>
           <img
       src="https://www.e2msolutions.com/wp-content/uploads/2022/06/oxygen-builder-development.png" 
       className='h-80 w-100'/>
@@ -39,7 +39,7 @@ const Hero = () => {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 1.5,
+                duration: 1.0,
                 repeat: Infinity,
                 repeatType: 'loop',
               }}

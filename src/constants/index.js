@@ -39,14 +39,27 @@ import {
       id: "about",
       title: "About",
     },
+
+    {
+      id: "education",
+      title: "Education",
+    },
+
     {
       id: "work",
       title: "Work",
     },
+
+    {
+      id: "tech",
+      title: "Skills",
+    },
+
     {
       id: "projects",
       title: "Projects",
     },
+
     {
       id: "contact",
       title: "Contact",

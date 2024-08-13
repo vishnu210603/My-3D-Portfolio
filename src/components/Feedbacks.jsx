@@ -78,7 +78,7 @@ import { Tilt } from "react-tilt";
 const FeedbackCard = ({ index, testimonial, name, date, company, image }) => (
   <motion.div
     variants={fadeIn(" ", "spring", index * 0.5, 0.75)}
-    className="bg-primitive shadow-outer shadow-lg shadow-[#9d4edd] border-purple-400  sm:h-[530px] h-fit rounded-xl border-[1px]  sm:w-[360px] w-full"
+    className="bg-primitive shadow-outer shadow-lg shadow-[#9d4edd] border-purple-400  sm:h-[530px] h-fit rounded-xl border-[1px]  sm:w-[360px]"
   >
     <Tilt
       options={{
@@ -112,9 +112,9 @@ const FeedbackCard = ({ index, testimonial, name, date, company, image }) => (
   </motion.div>
 );
 
-const Feedbacks = () => {
+const Feedbacks = (education) => {
   return (
-    <div className="mx-4 sm:mx-12 lg:mx-24 rounded-[10px]">
+    <div id="education" className=" sm:mx-12 lg:mx-24 rounded-[10px]">
       <div className={`${styles.padding} rounded-xl min-h-[100px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>| ACADEMICS</p>

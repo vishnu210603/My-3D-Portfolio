@@ -19,14 +19,14 @@ body{
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20,fr);
     background: #1d1d1d;
-    filter: saturate(3);
+    filter: saturate(5);
     overflow: hidden;
 
 }
 
 .colorBox{
     z-index: 2;
-    filter: brightness(1.1);
+    filter: brightness(1.0);
     transition: 2s ease;
     position: relative;
     margin: 2px;
