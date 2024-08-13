@@ -38,9 +38,13 @@ const ProjectsCard=({index, name, description, tags,  image, source_code_link})=
           </div>
           </div>
          <div className="mt-5">
-          <h3 className=" text-purple-400 font-bold text-[24px] ">{name}</h3>
+          <h3 className=" text-purple-400 font-bold text-[24px]  ">{name}</h3>
+          </div>
+          <div className="flex flex-wrap justify-between">
+          <div>
           <p className="mt-2 text-secondary  text-[14px] ">{description}</p>
          </div>
+        
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag)=>(
               <p key={tag.name} className={`mb-1 text-[14px] ${tag.color}`}>
@@ -48,7 +52,7 @@ const ProjectsCard=({index, name, description, tags,  image, source_code_link})=
               </p>
             ))}
           </div>
-
+          </div>
         </Tilt>
 
       </motion.div>

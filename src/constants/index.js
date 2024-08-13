@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    movie,
+    emp,
+    pantry,
     threejs,
     mysql,
     powerbi,
@@ -225,6 +225,30 @@ import {
   
   const projects = [
 
+
+    {
+      name: "Pantry Tracker App",
+      description:
+        "User-login and athentication enabled Hassle-free pantry/grocery organizer and tracker with search feature implemented to search the items in stock. This webApp is Built using Nextjs, Firebase, Tailwind and Reactjs.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pantry,
+      source_code_link: "https://github.com/vishnu210603/pantry-tracker-app",
+    },
+
+
     {
       name: "Crypto Currency Live Price Tracker",
       description:
@@ -275,23 +299,69 @@ import {
         "Created predictive models and implemented Data Visualization tools to hypothetically reduced turnover by increasing employee satisfaction. ",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "numpy",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "ml",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: emp,
+      source_code_link: "https://github.com/",
+    },
+
+    {
+      name: " Data-Driven Sales Analysis",
+      description:
+        "Performed a well-structured analysis of the raw sale data from a seller, performed data cleaning, data pre-processing and created a visually appealing yet simplistic and insights-giving dashboard. ",
+      tags: [
+        {
+          name: "powerBI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Excel",
           color: "pink-text-gradient",
         },
       ],
       image: db,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/vishnu210603/DATA-DRIVEN-SALES-ANALYSIS",
     },
 
    
+    {
+      name: " Movie-Recommendation System",
+      description:
+        "This movie recommendation project offers personalized movie suggestions using a combination of machine learning algorithms and data analytics. Built with Python and libraries such as scikit-learn, Numpy and Pandas. ",
+      tags: [
+        {
+          name: "scikit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "numpy",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: movie,
+      source_code_link: "https://github.com/vishnu210603/Movie_Recommendation_System",
+    },
+
+   
+
 
     
   ];

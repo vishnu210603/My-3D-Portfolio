@@ -34,9 +34,9 @@ import V from "./company/V.png"
 import YBI from "./company/YBI.jpg"
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import movie from "./movie.jpg"
+import emp from "./emp.jpg"
+import pantry from "./pantryapp.png"
 import db from './db.jpg'
 import crypto from './crypto.jpg'
 import p3 from './p3.png'
@@ -53,6 +53,8 @@ export {
   css,
   docker,
   figma,
+  emp,
+  movie,
   git,
   html,
   javascript,
@@ -74,9 +76,7 @@ export {
   Hy,
   V,
   YBI,
-  carrent,
-  jobit,
-  tripguide,
+ pantry,
   db,
   crypto,
   p3
