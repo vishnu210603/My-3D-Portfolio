@@ -70,7 +70,7 @@ const Works=()=> {
      <p className={styles.sectionSubText}>| MY WORKS</p>
      <h2 className={styles.heroHeadText}> Projects  </h2>
     </motion.div>
-    <StarsCanvas/>
+    
 
     <div className="w-full flex">
       <motion.p
